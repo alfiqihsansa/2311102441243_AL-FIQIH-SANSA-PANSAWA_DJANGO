@@ -1,4 +1,5 @@
 deskripsi tentang project yang sudah saya buat.
+
 Aplikasi ini menyajikan berbagai berita dan artikel. Saya merancangnya agar dapat terus dikembangkan di masa depan, sehingga fitur-fiturnya semakin lengkap dan bermanfaat bagi pengguna.
 
 
