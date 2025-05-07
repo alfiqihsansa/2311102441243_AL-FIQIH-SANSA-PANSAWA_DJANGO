@@ -1,0 +1,60 @@
+{% extends 'halaman/index.html' %}
+{% load static %}
+
+{% block content %}
+<div class="page-header min-vh-75" style="background-image: url('{% static 'halaman/assets/img/bg9.jpg' %}');">
+    <span class="mask bg-gradient-dark opacity-6"></span>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mx-auto my-auto">
+          <h1 class="text-white">Work with an amazing <span class="text-white" id="typed"></span></h1>
+          <div id="typed-strings">
+            <h1>team</h1>
+            <h1>design</h1>
+            <h1>tool</h1>
+          </div>
+          <p class="lead mb-4 text-white opacity-8">We're constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game</p>
+          <button type="submit" class="btn bg-white text-dark">Create Account</button>
+          <h6 class="text-white mb-2 mt-5">Find us on</h6>
+          <div class="d-flex justify-content-center">
+            <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
+            <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
+            <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
+            <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+  <!-- -------- START Features w/ pattern background & stats & rocket -------- -->
+  <section class="pb-5 position-relative bg-gradient-dark mx-n3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-start mb-5 mt-5">
+          <h3 class="text-white z-index-1 position-relative">The Executive Team</h3>
+          <p class="text-white opacity-8 mb-0">There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="card card-profile mt-4">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                <a href="javascript:;">
+                  <div class="p-3 pe-md-0">
+                    <img class="w-100 border-radius-md shadow-lg" src="{% static 'halaman/assets/img/team-5.jpg' %}" alt="image">
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-8 col-md-6 col-12 my-auto">
+                <div class="card-body ps-lg-0">
+                  <h5 class="mb-0">Emma Roberts</h5>
+                  <h6 class="text-info">UI Designer</h6>
+                  <p class="mb-0">Artist is a term applied to a person who engages in an activity deemed to be an art.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+{% endblock %}
