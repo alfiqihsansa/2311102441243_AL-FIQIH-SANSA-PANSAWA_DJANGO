@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 
 
 from .views import home, about, contact, detail_artikel
-
+from web.authentikasi import akun_login, akun_registrasi, akun_logout
 urlpatterns = [
     path('admin/', admin.site.urls),
 
@@ -16,7 +16,10 @@ urlpatterns = [
     path('artikel/<slug:slug>', detail_artikel, name="detail_artikel"),
     
     path('dashboard/', include("berita.urls")),
-    
+
+    path('authentikasi/login', akun_login, name="akun_login"),
+    path('authentikasi/registrasi', akun_registrasi, name="akun_registrasi"),
+    path('authentikasi/logout', akun_logout, name="akun_logout"),
 ]
 
 if settings.DEBUG:
